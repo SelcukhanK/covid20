@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+.hulpverlener-foto {
+  background-image: url("https://www.zorgwelzijn.nl/content/uploads/sites/4/2020/03/iStock-479224144.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.card .card-header {
+  background-color: #2cd4b8;
+}
+.card .card-header h2 {
+  color: white;
+}
+.card .btn-primary {
+  background-color: #2cd4b8;
+  border: none;
+}
+
+.card {
+  border: none;
+}
+
+.yarrag {
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+body {
+    font-family: "Nunito", "Open Sans", Arial, Helvetica, sans-serif;
+    background: rgba(20, 58, 135, 0.8);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    background: #fff;
+}
+
+header {
+    padding: 20px;
+    background: rgba(0, 13, 39);
+    color: #fff;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+nav {
+    padding: 20px;
+    background: rgb(162, 184, 232);
+    color: #fff;
+}
+
+.content {
+    background: #ffffff;
+    min-height: 100px;
+    padding: 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 5px 10px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li .active, nav ul li a:hover {
+    color: #000;
+    background: #fff
+}
+
+
+aside {
+    background: rgb(162, 184, 232);
+    min-height: 100px;
+    padding: 20px;
+}
+
+.top-10 ol {
+    margin: 0;
+    padding: 0 20px;
+}
+
+footer {
+    padding: 20px;
+    color: #fff;
+    background: rgba(0, 13, 39);
+}
+
+@media screen and (min-width: 900px) {
+    main {
+        grid-template-columns: 1fr 350px;
+    }
+} */
+.btn-no_underline {
+  text-decoration: none !important;
+}
+
+.btn-add {
+  width: 24px;
+  height: 24px;
+  color: white;
+  display: flex;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 8px;
+}
+
+.card {
+  border: none;
+  /* border-radius:16px; */
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card .card-img-top {
+  height: 150px;
+  width: auto;
+}
+
+.card-img-top__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.price-tag {
+  background-color: #1988ff;
+  color: white;
+  border-radius: 16px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.product_title {
+  position: relative;
+  left: 45%;
+}
+
+.price-tag:hover {
+  background-color: #007bff !important;
+}
+
+.price-tag:hover .btn-add {
+  background-color: #0056b3 !important;
+}
+
+.category-title {
+  color: black !important;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section-title {
+  font-weight: 500;
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-primary {
+  background-color: #2cd4b8;
+  border-color: #2cd4b8;
+}
+
+footer {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
