@@ -1,3 +1,6 @@
+LIVE-VERSIE: http://30229.hosts2.ma-cloud.nl/covid20/public/
+
+
 ## MVC starter project
 
 Gebruik dit starter project om snel aan de slag te gaan met het leren van het werken in de MVC structuur (model view controller)
